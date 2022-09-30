@@ -8,6 +8,6 @@ module.exports = {
   siteMetadata: {
     title: `Florindas Doceria`,
     description: `Cafeteria completa e Mexicano`,
-    siteUrl: `florindascafe.com.br`,
+    siteUrl: `https://www.florindascafe.com.br`,
   },
 }
