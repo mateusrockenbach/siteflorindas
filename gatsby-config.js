@@ -5,4 +5,9 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
   ],
+  siteMetadata: {
+    title: `Florindas Doceria`,
+    description: `Cafeteria completa e Mexicano`,
+    siteUrl: `florindascafe.com.br`,
+  },
 }
