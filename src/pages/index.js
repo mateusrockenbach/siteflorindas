@@ -1,6 +1,8 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
+import { SEO } from "../components/seo"
+
 export default function Home() {
   return ( 
     <main className="h-screen flex flex-col justify-center items-center">
@@ -32,3 +34,7 @@ export default function Home() {
     </main>
   )   
 }
+
+export const Head = () => (
+  <SEO />
+)
