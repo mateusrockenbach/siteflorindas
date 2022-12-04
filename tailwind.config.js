@@ -9,7 +9,7 @@ module.exports = {
       'background': '#F7FAFC',
       'support': '#F48483',
       'accent': '#FBE5C5',
-      'text':'#4C5566',
+      'text': '#4C5566',
     },
     fontFamily:{
       Georama: ['Georama', 'sans-serif']

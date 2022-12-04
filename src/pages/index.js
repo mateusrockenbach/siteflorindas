@@ -17,11 +17,35 @@ export default function Home() {
             loading="eager"
           />
         </div>
-        <p className="mb-8 mx-10">Com informações completas sobre cada uma das nossas unidades, cardápios atualizados, fotos e muito mais.</p>
-        <p className="">Aguarde... :)</p>
+        <p className="mb-20 mx-10">Com informações completas sobre cada uma das nossas unidades, cardápios atualizados, fotos e muito mais. Aguarde... :)</p>
+        <a href="./../assets/cardapio-natal.pdf" download>
+          <div className="flex justify-center items-center border-2 border-support border-dashed rounded-3xl p-8 m-6">
+              <StaticImage
+              src="./../assets/icone-boneco-natal.png"
+              alt="icone-boneco-natal"
+              title="Icone Boneco de Natal"
+              placeholder="dominantColor"
+              layout="fixed"
+              loading="eager"
+              height={128}
+              />
+            <div>
+              <StaticImage
+                src="./../assets/texto-cardapio-natal.png"
+                alt="texto-cardapio"
+                title="texto cardapio"
+                placeholder="dominantColor"
+                layout="fixed"
+                loading="eager"
+                width={149}
+                />
+              <h3 className="text-left ml-2 mt-4">É só clicar aqui</h3>
+            </div>
+          </div>
+        </a>
       </div>
 
-      <div className="w-44 mt-32">
+      <div className="w-44 mt-24">
         <StaticImage
           src="./../assets/logo.png"
           alt="florindas"

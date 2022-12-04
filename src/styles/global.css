@@ -9,3 +9,7 @@
     font-family: 'Georama', sans-serif;
     font-size: 1rem;
 }
+
+.bg-gradient {
+    background: linear-gradient(#f1afb1 0%, #f086a2 100%, #808080 100%);
+}
