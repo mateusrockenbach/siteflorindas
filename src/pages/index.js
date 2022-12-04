@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 import { SEO } from "../components/seo"
 
@@ -18,7 +19,7 @@ export default function Home() {
           />
         </div>
         <p className="mb-20 mx-10">Com informações completas sobre cada uma das nossas unidades, cardápios atualizados, fotos e muito mais. Aguarde... :)</p>
-        <a href="./../assets/cardapio-natal.pdf" download>
+        <a href={'cardapio-natal.pdf'} download>
           <div className="flex justify-center items-center border-2 border-support border-dashed rounded-3xl p-8 m-6">
               <StaticImage
               src="./../assets/icone-boneco-natal.png"
