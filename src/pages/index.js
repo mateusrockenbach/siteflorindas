@@ -1,8 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
 
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 
 export default function Home() {
   return ( 
@@ -19,29 +18,17 @@ export default function Home() {
           />
         </div>
         <p className="mb-20 mx-10">Com informações completas sobre cada uma das nossas unidades, cardápios atualizados, fotos e muito mais. Aguarde... :)</p>
-        <a href={'cardapio-natal.pdf'} download>
-          <div className="flex justify-center items-center border-2 border-support border-dashed rounded-3xl p-8 m-6">
+        <a href={'cardapio-florindas-2023.pdf'} download className="inline-block">
+          <div className="flex justify-center items-center">
               <StaticImage
-              src="./../assets/icone-boneco-natal.png"
-              alt="icone-boneco-natal"
+              src="./../assets/confira-cardapio-2023.png"
+              alt="cardapio 2023"
               title="Icone Boneco de Natal"
               placeholder="dominantColor"
               layout="fixed"
               loading="eager"
-              height={128}
+              height={150}
               />
-            <div>
-              <StaticImage
-                src="./../assets/texto-cardapio-natal.png"
-                alt="texto-cardapio"
-                title="texto cardapio"
-                placeholder="dominantColor"
-                layout="fixed"
-                loading="eager"
-                width={149}
-                />
-              <h3 className="text-left ml-2 mt-4">É só clicar aqui</h3>
-            </div>
           </div>
         </a>
       </div>
@@ -61,5 +48,5 @@ export default function Home() {
 }
 
 export const Head = () => (
-  <SEO />
+  <Seo />
 )
